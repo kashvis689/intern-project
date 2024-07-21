@@ -1,34 +1,36 @@
 <header>
-  Welcome to User Portal !
+  Welcome to User Portal!
 </header>
-<h1> {{title}} </h1>
+<h1>{{title}}</h1>
 
- <div>
+<div>
   <table class="table table-bordered table-hover">
     <thead>
-        <th> S. No</th>
+      <tr>
+        <th>S. No</th>
         <th *ngFor="let header of ColList">{{header}}</th>
-        <th> Edit </th>
-        <th> Delete </th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
     </thead>
+    <tbody>
       <tr *ngFor="let user of users; let sr = index">
-        <td>{{sr+1}}</td>
-        <td>{{user.firstName + " " +  user.lastName}}</td>
+        <td>{{sr + 1}}</td>
+        <td>{{user.firstName + " " + user.lastName}}</td>
         <td>{{user.username}}</td>
         <td>{{user.password}}</td>
         <td>{{user.dob}}</td>
-        <td>{{getGenderIcon(user.gender)}}</td>
         <td>
-          <button class="btn btn-primary" (click)="edit(sr)">
-            Edit
-          </button>
+          <img [src]="user.gender === 'Male' ? 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxJSRtBml-LILMUgECBSg7t0Wnbm-L0IQBw&s' : 'data:image/jpeg;base64,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'" alt="Gender Icon" width="30" height="30">
         </td>
         <td>
-          <button class="btn btn-danger" (click)="onDelete(sr)">
-            Delete
-          </button>
+          <button class="btn btn-primary" (click)="edit(sr)">Edit</button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="onDelete(sr)">Delete</button>
         </td>
       </tr>
+    </tbody>
   </table>
 </div>
 
