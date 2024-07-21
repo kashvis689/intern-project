@@ -26,9 +26,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [Add Edit Component](classes/app_components_add_edit_user_add_edit_user_component.AddEditUserComponent.md)
 
 [Home Component](classes/app_components_home_home_component.HomeComponent.md)
+
 [List Component](classes/app_components_list_user_list_user_component.ListUserComponent.md)
+
 [User Component](classes/app_components_user.User.md)
+
 [Navbar](classes/app_navbar_navbar_component.NavbarComponent.md)
+
 [User Service Component](classes/app_user_service.UserService.md)
 
 ### On This Page
