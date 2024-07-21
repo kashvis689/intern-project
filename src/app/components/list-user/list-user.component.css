@@ -1,0 +1,78 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffa500;
+  color: #000;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 1.8em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #ffa500;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.table {
+  width: 80%;
+  margin: 0 auto 80px auto; /* Add space at the bottom of the table */
+  background-color: #222;
+  color: #fff;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.6);
+}
+
+.table thead {
+  background-color: #333;
+  color: #ffa500;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ffa500;
+}
+
+.table tbody tr:hover {
+  background-color: #444;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background-color: #ffa500;
+  color: #111;
+}
+
+.btn-danger {
+  background-color: #e60000;
+  color: #fff;
+}
+
+footer {
+  background-color: #444;
+  color: #ffa500;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}

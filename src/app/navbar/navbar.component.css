@@ -1,0 +1,48 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #222; /* Dark background for the navbar */
+  border-bottom: 2px solid #ffa500; /* Orange border at the bottom */
+}
+
+.navbar-brand {
+  color: #ffa500; /* Bright orange color for the brand */
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: #ff6600; /* Darker orange for hover effect */
+}
+
+.navbar-toggler {
+  border: 1px solid #ffa500; /* Orange border for the toggler button */
+  background-color: #222; /* Dark background for the toggler button */
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"%3E%3Cpath stroke="%23ffa500" stroke-width="2" d="M5 6h20M5 15h20M5 24h20"/%3E%3C/svg%3E'); /* Orange color for toggler icon lines */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffa500; /* Bright orange color for nav links to match the brand */
+  padding: 12px 16px;
+  font-weight: normal; /* Not bold */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #222; /* Dark color for text on hover */
+  background-color: #ffa500; /* Bright orange background on hover */
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item .nav-link.active {
+  color: #222; /* Dark color for active link text */
+  background-color: #ffa500; /* Bright orange background for active link */
+  border-radius: 5px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}

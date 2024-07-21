@@ -1,0 +1,109 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffa500;
+  color: #000;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 1.8em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #ffa500;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #444;
+  color: #ffa500;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 165, 0, 0.7);
+  padding-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #ffa500;
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ffa500;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1em;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background-color: #ffa500;
+  color: #111;
+}
+
+.btn-secondary {
+  background-color: #444;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #e60000;
+  color: #fff;
+}
+
+span {
+  color: #ffa500;
+  font-size: 0.85em;
+}
+
+span *ngIf {
+  display: block;
+  margin-top: 8px;
+}
+
+.form-group span {
+  color: #ff3300;
+  font-size: 0.85em;
+}
