@@ -22,7 +22,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Classes
 [App Component](classes/app_app_component.AppComponent.md)
+
 [Add Edit Component](classes/app_components_add_edit_user_add_edit_user_component.AddEditUserComponent.md)
+
 [Home Component](classes/app_components_home_home_component.HomeComponent.md)
 [List Component](classes/app_components_list_user_list_user_component.ListUserComponent.md)
 [User Component](classes/app_components_user.User.md)
